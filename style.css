@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: var(--020-a-18, #020A18);
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    color: #FFF;
+}
+a{
+    text-decoration: none;
+    transition: 1s;
+   
+}
+a:hover{
+    color: #bc0d0d;
+    text-decoration-line: underline;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.header{
+    margin: 31px 0 37px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav h4{
+    margin-left: 15px;
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-size: 22.545px;
+    font-weight: 600;
+}
+
+.header-menu a{
+    margin: 0 20px;
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-btn button{
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, hsl(218, 52%, 47%));
+    color: var(--ffffff, #FFF);;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    transition: 1s;
+}
+.header-btn button:hover{
+    background:  hsl(258, 100%, 13%);
+    color: #0097c5;
+    box-shadow: 80px -31px 2px hsl(218, 52%, 47%);
+    border-right-color: #020A18;
+}
+
+/* ////////////////HER0///////////// */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 126px;
+}
+.hero .hero-text{
+    margin: 0 40px 0 -40px;
+}
+.hero-text h4{
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-transform: uppercase;
+    transition: 1s;
+    /* letter-spacing: 10px; */
+}
+.hero-text h4:hover{
+    width: 300px;
+    color: rgb(238, 245, 245);
+    text-shadow: -42px -51px 0  #3A68B8;
+    letter-spacing: 1.3px;
+}
+.hero-text h1{
+    color: var(--ffffff, #FFF);
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%; /* 71.5px */
+    width: 604px;
+    margin: 10px 0 40px 0;
+}
+.hero-text p{
+    color: var(--ffffff, #FFF);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+}
+.hero-text .hero-btn button{
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    padding: 15px 30px;
+    align-items: center;
+    margin: 50px 20px 0 0;
+}
+.hero-text .hero-btn{
+    display: flex;
+    
+}
+button .play{
+    background: #3A68B8;
+    color: white;
+    font-size: 27px;
+    margin-right: 5px;
+}
+.hero-btn .btn-right{
+    display: flex;
+}
+
+.hero-img img{
+    width: 432px;
+height: 434px;
+flex-shrink: 0;
+}
+
+
+/* /////////////LOGOIPSUM//////////////////// */
+
+.logoipsum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    text-align: center;
+    margin: 187px 0 220px -70px ;
+}
+    /* //////////////HERO-TWO/////////// */
+
+.hero-two{
+    display: flex;
+    align-items: center;
+}
+
+.two-text h1{
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%; /* 52px */
+    width: 526.365px;
+height: 115.504px;
+flex-shrink: 0;
+}
+.two-text p{
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    margin: 33px 0 55px 0;
+}
+.two-text button{
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    padding: 15px 30px;
+    border: none;
+}
+.hero-two img{
+    width: 549px;
+    height: 510px;
+    margin-right: 80px;
+    margin-left: -70px;
+}
+
+/* ////////////BLOCKS//////////// */
+.blocks{
+    margin: 254px 0 172px 0;
+    display: flex;
+    margin-left: -120px;
+}
+.blocks .block-one{
+    margin: 0 15px;
+    width: 362.963px;
+    height: 428px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgb(25, 25, 35);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block-one h4{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%; /* 31.25px */
+    background: rgb(25, 25, 35);
+
+}
+.block-one p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    background: rgb(25, 25, 35);
+}
+.block-one img{
+    width: 83.277px;
+    height: 84.787px;
+    flex-shrink: 0;
+    background: rgb(25, 25, 35);
+}
+
+/* ///////////////////HERO-THREE//////////// */
+.hero-three{
+    display: flex;
+    align-items: center;
+    margin-left: -90px;
+}
+.three-text h1{
+    width: 546.009px;
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%; /* 52px */
+    margin-bottom: 38px;
+}
+.three-text p{
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+}
+
+/* //////////////////////FOOTER///////////////// */
+
+
+
+.robot h3{
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-size: 15.963px;
+    font-weight: 600;
+    margin: 7px 0 9px 0;
+}
+.robot p{
+    color: var(--ffffff, #FFF);
+    font-size: 14px;
+    font-weight: 450;
+    margin-bottom: 25px;
+}
+.mail a{
+    color: var(--ffffff, #FFF);
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    
+}
+.robot .mail{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail .a{
+    opacity: 1;
+}
+a .email, .phone, .loc{
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+/* //////////////information/////////// */
+
+.footer h1{
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.footer p{
+    color: var(--ffffff, #FFF);
+    font-size: 14px;
+    font-weight: 450;
+    opacity: 0.6;
+}
+
+/* .footer a:hover{
+    color: #bc0d0d;
+} */
+.footer a{
+    margin: 10px 0;
+    opacity: 0.6;
+
+}
+.footer{
+    margin: 138px 0 143px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin-left: -90px;
+}
+.footer .information, .footer-menu, .useful-links, .about{
+    display: flex;
+    flex-direction: column;
+}
+.about p{
+    margin-top: 5px;
+}
+.about a{
+    opacity: 1;
+    margin: 30px 0 20px 0;
+}
+.icon ion-icon{
+    opacity: 0.6;
+    margin-right: 30px;
+    font-size: 22px;
+}
+.icon .face{
+    color: #3A68B8;
+}
+.icon .ins{
+    color: #b20c7b;
+}
+.icon .twi{
+    color: #0097c5;
+}
+.icon .lin{
+    color: #0b3d4f;
+}
+.icon .you{
+    color: #bc0d0d;
+}
